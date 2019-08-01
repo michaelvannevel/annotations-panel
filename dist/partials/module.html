@@ -6,9 +6,7 @@
     </h6>
   -->
     <div class="dashlist-item" ng-repeat="anno in ctrl.found">
-      <a class="dashlist-link dashlist-link-{{anno.type}}" 
-        ng-click="ctrl.selectAnno(anno, $event);" 
-        href="#">
+      <span class="dashlist-link dashlist-link-{{anno.type}}">
         <span class="dashlist-title" ng-bind-html="anno.text"></span>
 
         <!-- Right Aligned -->
@@ -42,7 +40,7 @@
             {{ anno | json }}
           </span>
         </span>
-      </a>
+      </span>
     </div>
   </div>
   

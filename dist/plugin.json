@@ -25,7 +25,7 @@
       {"name": "Link", "path": "img/screenshot-link.png"}
     ],
     "version": "0.0.1-dev",
-    "updated": "2019-07-18"
+    "updated": "2019-08-01"
   },
   "dependencies": {
     "grafanaVersion": "5.2.x"
